@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRM Application</title>
+    <link rel="stylesheet" href="./bs.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+        <a href="./index.html" class="navbar-brand">CRM IT</a>
+       <div class="ml-auto">
+        <ul class="navbar-nav">
+            <li><a href="./index.html" class="nav-link">Home</a></li>
+            <li><a href="./about.html" class="nav-link">About</a></li>
+            <li><a href="./serivces.html" class="nav-link">Services</a></li>
+            <li><a href="./employees.html" class="nav-link">Employees</a></li>
+            <li><a href="./products.html" class="nav-link">Products</a></li>
+            <li><a href="./contact.html" class="nav-link">Contact</a></li>
+            <li><a href="./login.html" class="nav-link">Login</a></li>
+        </ul>
+       </div>
+    </nav>
+    <div>
+        <h2>Login Page</h2>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <form action="/login">
+                        <div class="form-group">
+                            <label >Email Id:</label>
+                            <input type="text" class="form-control"/>
+                        </div>
+                        <div class="form-group">
+                            <label >Password:</label>
+                            <input type="text" class="form-control"/>
+                        </div>
+                        <input type="submit" value="Login" class="btn btn-success">
+                </form>
+            </div>
+             <div class="col-3">
+                <form action="/login">
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email Id"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="Password"/>
+                        </div>
+                        <input type="submit" value="Login" class="btn btn-success">
+                </form>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <div class="card-header bg-dark text-white">
+                        <h3>Login Details</h3>
+                    </div>
+                    <div class="card-body">
+                        <form action="/login">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Email Id"/>
+                            </div>
+                             <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Password"/>
+                            </div>
+                            <input type="submit" value="Login">
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <a href="./index.html" class="text-white">Home</a> |
+                    <a href="./about.html" class="text-white">About</a> |
+                    <a href="./serivces.html" class="text-white">Services</a> |
+                    <a href="./employees.html" class="text-white">Employees</a> |
+                    <a href="./products.html" class="text-white">Products</a> |
+                    <a href="./contact.html" class="text-white">Contact</a> |
+                    <a href="./login.html" class="text-white">Login</a>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col">
+                    <p>&copy; 2026 CRM IT. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

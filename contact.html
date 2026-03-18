@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRM Application</title>
+    <link rel="stylesheet" href="./bs.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg mb-4">
+        <a href="./index.html" class="navbar-brand">CRM IT</a>
+       <div class="ml-auto">
+        <ul class="navbar-nav">
+            <li><a href="./index.html" class="nav-link">Home</a></li>
+            <li><a href="./about.html" class="nav-link">About</a></li>
+            <li><a href="./serivces.html" class="nav-link">Services</a></li>
+            <li><a href="./employees.html" class="nav-link">Employees</a></li>
+            <li><a href="./products.html" class="nav-link">Products</a></li>
+            <li><a href="./contact.html" class="nav-link">Contact</a></li>
+            <li><a href="./login.html" class="nav-link">Login</a></li>
+        </ul>
+       </div>
+    </nav>
+  
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <!-- Contact Form-->
+                 <form action="/contact">
+                  <div class="row">
+                    <div class="col-4">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                    </div>
+                     <div class="col-4">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Email Id">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Phone No">
+                        </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-8">
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option >--Select--</option>
+                                <option >Web Development</option>
+                                <option >Cloud App Services</option>
+                                <option >Digital Marketing</option>
+                                <option >--Select--</option>
+                                <option >--Select--</option>
+                            </select>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                  </div>
+                  <input type="submit" value="Submit Comment" class="btn btn-warning">
+                 </form>
+            </div>
+            <div class="col-6">
+                <!-- Google Map -->
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3366.69018035256!2d77.70099619999999!3d12.9624147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae10d5b2786a23%3A0xb08461de6796aef8!2sGreet%20Labs%20Private%20Limited!5e1!3m2!1sen!2sin!4v1773668583012!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <a href="./index.html" class="text-white">Home</a> |
+                    <a href="./about.html" class="text-white">About</a> |
+                    <a href="./serivces.html" class="text-white">Services</a> |
+                    <a href="./employees.html" class="text-white">Employees</a> |
+                    <a href="./products.html" class="text-white">Products</a> |
+                    <a href="./contact.html" class="text-white">Contact</a> |
+                    <a href="./login.html" class="text-white">Login</a>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col">
+                    <p>&copy; 2026 CRM IT. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
